@@ -298,8 +298,9 @@ while true; do
   echo "1. Install panel"
   echo "2. Uninstall Panel"
   echo "3. Uninstall Thema"
+  echo "4. Install Thema"
   echo "x. Exit"
-  echo -e "Masukkan pilihan (1/2/3/x)"
+  echo -e "Masukkan pilihan (1/2/3/4/x)"
   read -r MENU_CHOICE
   clear
 
