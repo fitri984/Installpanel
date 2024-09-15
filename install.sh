@@ -78,7 +78,7 @@ install_theme() {
         echo -e "${RED}Pilihan tidak valid, silahkan coba lagi.${NC}"
         ;;
     esac
-  done
+  clear
   }
 if [ -e /root/pterodactyl ]; then
     sudo rm -rf /root/pterodactyl
