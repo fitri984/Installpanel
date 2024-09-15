@@ -24,10 +24,10 @@ display_welcome() {
 #Check user token
 check_token() {
   echo -e "                                                       "
-  echo -e "${BLUE} =============================================== ${NC}"
+  echo -e "${RED} =============================================== ${NC}"
   echo -e "${BLUE}     BUY TOKEN DULU SANA SAMA KAYZEN             ${NC}"
   echo -e "${BLUE}       WHATSAPP : 0858-1001-8405                 ${NC}"
-  echo -e "${BLUE} =============================================== ${NC}"
+  echo -e "${RED} =============================================== ${NC}"
   echo -e "                                                       "
 
   echo -e "${RED}TOKEN :${NC}"
@@ -65,9 +65,9 @@ install_theme() {
     
 bash <(curl -s https://raw.githubusercontent.com/guldkage/Pterodactyl-Installer/main/autoinstall.sh) $Domain true admin@kayzen.com admin admin admin 1 true
   echo -e "                                                       "
-  echo -e "${GREEN} =============================================== ${NC}"
+  echo -e "${RED} =============================================== ${NC}"
   echo -e "${GREEN}                   INSTALL SUCCESS               ${NC}"
-  echo -e "${GREEN} =============================================== ${NC}"
+  echo -e "${RED} =============================================== ${NC}"
   echo -e ""
   sleep 2
     break
@@ -83,9 +83,9 @@ bash <(curl -s https://raw.githubusercontent.com/guldkage/Pterodactyl-Installer/
     
 bash <(curl -s https://raw.githubusercontent.com/guldkage/Pterodactyl-Installer/main/autoinstall.sh) $Domain true admin@kayzen.com admin admin admin 1 true
   echo -e "                                                       "
-  echo -e "${GREEN} =============================================== ${NC}"
+  echo -e "${RED} =============================================== ${NC}"
   echo -e "${GREEN}                   INSTALL SUCCESS               ${NC}"
-  echo -e "${GREEN} =============================================== ${NC}"
+  echo -e "${RED} =============================================== ${NC}"
   echo -e ""
   sleep 2
     break
@@ -107,9 +107,9 @@ check_token
 while true; do
   clear
   echo -e "                                                       "
-  echo -e "${BLUE} =============================================== ${NC}"
+  echo -e "${RED} =============================================== ${NC}"
   echo -e "${BLUE}                   SELECT OPTION                 ${NC}"
-  echo -e "${BLUE} =============================================== ${NC}"
+  echo -e "${RED} =============================================== ${NC}"
   echo -e "                                                       "
   echo -e "SELECT OPTION :"
   echo "1. Install panel"
