@@ -34,7 +34,7 @@ check_token() {
   read -r USER_TOKEN
 
   if [ "$USER_TOKEN" = "kayzen" ]; then
-    echo -e "${GREEN}WOKEH COMPLETE${NC}}"
+    echo -e "${GREEN}AKSES SUKSES${NC}}"
   else
     echo -e "${GREEN}GAGAL COBA LAGI${NC}"
     exit 1
