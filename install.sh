@@ -314,10 +314,10 @@ while true; do
     2)
       uninstall_panel
       ;;
-    4)
+    3)
       list_theme
       ;;      
-    5)
+    4)
       uninstall_theme
       ;;
     x)
