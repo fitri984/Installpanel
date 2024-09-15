@@ -44,7 +44,7 @@ check_token() {
 list_theme() {
   echo -e "                                                       "
   echo -e "${RED} =============================================== ${NC}"
-  echo -e "${BLUE}           SILAHKAN PILIH BOSKU                 ${NC}"
+  echo -e "${BLUE}         SILAHKAN PILIH THEMA BOSKU            ${NC}"
   echo -e "${RED} =============================================== ${NC}"
   echo -e "                                                       "
   echo -e "SELECT OPTION :"
