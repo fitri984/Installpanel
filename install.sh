@@ -138,7 +138,7 @@ while true; do
   echo -e "                                                       "
   echo -e "SELECT OPTION :"
   echo "1. Install panel"
-  echo "2. Uninstall Panel
+  echo "2. Uninstall Panel"
   echo "x. Exit"
   echo -e "Masukkan pilihan (1/2/x):"
   read -r MENU_CHOICE
