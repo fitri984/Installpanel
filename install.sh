@@ -25,7 +25,8 @@ display_welcome() {
 check_token() {
   echo -e "                                                       "
   echo -e "${BLUE} =============================================== ${NC}"
-  echo -e "${BLUE}                  TOKEN BY KAYZEN                 ${NC}"
+  echo -e "${BLUE}     BUY TOKEN DULU SANA SAMA KAYZEN             ${NC}"
+  echo -e "${BLUE}       WHATSAPP : 0858-1001-8405                 ${NC}"
   echo -e "${BLUE} =============================================== ${NC}"
   echo -e "                                                       "
 
