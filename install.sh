@@ -297,10 +297,9 @@ while true; do
   echo -e "SELECT OPTION :"
   echo "1. Install panel"
   echo "2. Uninstall Panel"
-  echo "3. Install Thema"
-  echo "4. Uninstall Thema"
+  echo "3. Uninstall Thema"
   echo "x. Exit"
-  echo -e "Masukkan pilihan (1/2/3/4/x)"
+  echo -e "Masukkan pilihan (1/2/3/x)"
   read -r MENU_CHOICE
   clear
 
@@ -312,9 +311,6 @@ while true; do
       uninstall_panel
       ;;
     3)
-      install_theme
-      ;;
-    4)
       uninstall_theme
       ;;
     x)
