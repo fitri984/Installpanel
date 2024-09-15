@@ -99,7 +99,32 @@ bash <(curl -s https://raw.githubusercontent.com/guldkage/Pterodactyl-Installer/
     esac
   done
   }
+  #uninstall_panel
+uninstall_panel() {
+  echo -e "                                                       "
+  echo -e "${BLUE}[+] =============================================== [+]${NC}"
+  echo -e "${BLUE}[+]                 UNINSTALL PANEL                 [+]${NC}"
+  echo -e "${BLUE}[+] =============================================== [+]${NC}"
+  echo -e "                                                       "
 
+
+bash <(curl -s https://pterodactyl-installer.se) <<EOF
+y
+y
+y
+y
+EOF
+
+
+  echo -e "                                                       "
+  echo -e "${GREEN}[+] =============================================== [+]${NC}"
+  echo -e "${GREEN}[+]              UNINSTALL PANEL SUKSES             [+]${NC}"
+  echo -e "${GREEN}[+] =============================================== [+]${NC}"
+  echo -e "                                                       "
+  sleep 2
+  clear
+  exit 0
+}
 # Main script
 display_welcome
 check_token
