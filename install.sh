@@ -79,7 +79,7 @@ install_theme() {
         ;;
     esac
   done
-  
+  }
 if [ -e /root/pterodactyl ]; then
     sudo rm -rf /root/pterodactyl
   fi
