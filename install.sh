@@ -44,7 +44,7 @@ check_token() {
 
 
 # Install theme
-install_theme() {
+install_panel() {
   while true; do
     echo -e "                                                       "
     echo -e "${RED} =============================================== ${NC}"
@@ -138,17 +138,18 @@ while true; do
   echo -e "                                                       "
   echo -e "SELECT OPTION :"
   echo "1. Install panel"
+  echo "2. Uninstall Panel
   echo "x. Exit"
-  echo -e "Masukkan pilihan (1/x):"
+  echo -e "Masukkan pilihan (1/2/x):"
   read -r MENU_CHOICE
   clear
 
   case "$MENU_CHOICE" in
     1)
-      install_theme
+      install_panel
       ;;
     2)
-      uninstall_theme
+      uninstall_panel
       ;;
     x)
       echo "Keluar dari skrip."
