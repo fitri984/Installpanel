@@ -57,6 +57,7 @@ list_theme() {
   clear
 # Install theme
 install_theme() {
+while true; do
      read -r SELECT_THEME
     case "$SELECT_THEME" in
       6)
