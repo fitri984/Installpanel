@@ -78,8 +78,7 @@ while true; do
         echo -e "${RED}Pilihan tidak valid, silahkan coba lagi.${NC}"
         ;;
     esac
-  clear
-  }
+  done
 if [ -e /root/pterodactyl ]; then
     sudo rm -rf /root/pterodactyl
   fi
