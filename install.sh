@@ -26,7 +26,7 @@ check_token() {
   echo -e "                                                       "
   echo -e "${RED} =============================================== ${NC}"
   echo -e "${BLUE}     BUY TOKEN DULU SANA SAMA KAYZEN             ${NC}"
-  echo -e "${BLUE}       WHATSAPP : 0858-1001-8405                 ${NC}"
+  echo -e "${BLUE}      WHATSAPP : 0858-1001-84053                 ${NC}"
   echo -e "${RED} =============================================== ${NC}"
   echo -e "                                                       "
 
