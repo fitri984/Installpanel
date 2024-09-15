@@ -40,7 +40,6 @@ check_token() {
     exit 1
   fi
   clear
-}
 list_theme() {
   echo -e "                                                       "
   echo -e "${RED} =============================================== ${NC}"
