@@ -140,7 +140,7 @@ while true; do
   echo "1. Install panel"
   echo "2. Uninstall Panel"
   echo "x. Exit"
-  echo -e "Masukkan pilihan (1/2/x):"
+  echo -e "Masukkan pilihan (1/2/x)"
   read -r MENU_CHOICE
   clear
 
