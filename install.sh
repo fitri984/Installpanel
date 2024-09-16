@@ -30,13 +30,16 @@ check_token() {
   echo -e "${RED} =============================================== ${NC}"
   echo -e "                                                       "
 
-  echo -e "${RED}TOKEN :${NC}"
+  echo -e "${RED}BELI TOKEN DULU SANA SAMA KAYZEN${NC}"
+  echo -e "${BLUE}WHATSAPP : ⬇️${NC}"
+  echo -e "${GREEN}0858-10018-4055${NC}"
+  echo -e "${YELLOW}MASUKAN TOKEN BOSKU${NC}"
   read -r USER_TOKEN
 
   if [ "$USER_TOKEN" = "kayzen" ]; then
     echo -e "${GREEN}AKSES SUKSES${NC}}"
   else
-    echo -e "${GREEN}GAGAL COBA LAGI${NC}"
+    echo -e "${RED}GAGAL COBA LAGI${NC}"
     exit 1
   fi
   clear
