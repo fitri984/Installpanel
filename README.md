@@ -1,4 +1,4 @@
-![Hellow Github]([]([](https://github.com/fitri984/Installpanel/blob/main/finix444.jpg)
+![Hellow Github](https://github.com/fitri984/Installpanel/blob/main/finix444.jpg)
 
 JANGAN DIJUAL BELIKAN YE BWANG !!!
 BUTUH LICENSE/PW CHAT WA GUA
