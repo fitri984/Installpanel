@@ -36,7 +36,7 @@ check_token() {
   echo -e "${YELLOW}MASUKAN TOKEN BOSKU${NC}"
   read -r USER_TOKEN
 
-  if [ "$USER_TOKEN" = "fitripanel" ]; then
+  if [ "$USER_TOKEN" = "kayzen" ]; then
     echo -e "${GREEN}AKSES SUKSES${NC}}"
   else
     echo -e "${RED}GAGAL COBA LAGI${NC}"
